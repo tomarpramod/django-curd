@@ -8,7 +8,7 @@ python3 manage.py migrate
 
 echo "Migrations done"
 
-cd /var/lib/jenkins/workspace/django-cicd
+cd /var/lib/jenkins/workspace/django-cicd/env/bin
 
 
 
