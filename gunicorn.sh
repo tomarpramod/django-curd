@@ -1,5 +1,5 @@
 #!/bin/bash
-source envdev/bin/activate
+source envdev/Scripts/activate
 cd /var/lib/jenkins/workspace/django-cicd/demo
 
 
