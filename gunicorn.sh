@@ -1,13 +1,16 @@
 #!/bin/bash
 source envdev/bin/activate
-cd /var/lib/jenkins/workspace/django-cicd/
-
+cd /var/lib/jenkins/workspace/django-cicd/demo
 
 
 python3 manage.py makemigrations
 python3 manage.py migrate
 
-cd var/lib/jenkins/workspace/django-cicd
+echo "Migrations done"
+
+cd /var/lib/jenkins/workspace/django-cicd
+
+
 
 sudo cp -rf gunicorn.socket/etc/systemd/system/
 sudo cp -rf gunicorn.service/etc/systemd/system/
