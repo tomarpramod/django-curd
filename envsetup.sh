@@ -1,5 +1,5 @@
 #!/bin/bash
-if [-d "envdev"]
+if [-d "env"]
 then
 echo "python virtual env exists"
 else
