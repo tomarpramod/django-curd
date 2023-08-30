@@ -1,7 +1,7 @@
 #!/bash/bin
 
 sudo cp -rf demo.conf /etc/nginx/conf.d
-echo "$PWD"
+usermod -aG jenkins nginx
 chmod 710 /var/lib/jenkins/workspace/django-cicd
 sudo nginx -t
 
