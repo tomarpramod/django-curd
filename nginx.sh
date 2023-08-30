@@ -1,7 +1,7 @@
 #!/bash/bin
 
 sudo cp -rf demo.conf /etc/nginx/conf.d
-chmod 710 /var/lib/jenkins/workspace/django-cicd/demo
+chmod 710 /var/lib/jenkins/workspace/django-cicd
 sudo nginx -t
 
 
