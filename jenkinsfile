@@ -23,7 +23,7 @@ pipeline {
             steps {
                 sh '''
                 chmod +x nginx.sh
-                /var/lib/jenkins/workspace/django-cicd/nginx.sh
+                ./nginx.sh
                 '''
             }
         }
